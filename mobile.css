@@ -1,0 +1,33 @@
+@media screen and (max-width: 750px) {
+    .hamburger{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+}
+@media screen and (max-width: 580px) {
+  
+.banner-container {
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+    height: auto;
+ 
+
+}
+.hero {
+    background-color: black;
+    height: 1200px;
+}
+.banner-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+}
