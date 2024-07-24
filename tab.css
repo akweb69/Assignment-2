@@ -43,3 +43,21 @@
         margin-bottom: 2.5rem;
     }
 }
+@media screen and (max-width: 1150px) {
+    
+.run-ex-title {
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 900;
+    font-family: var(--inter-font);
+    max-width: 100%;
+    margin-bottom: 0.4rem;
+}
+}
+@media screen and (max-width: 850px){
+    .run-ex-description {
+        width: 62%;
+        /* border: 1px solid red; */
+        height: 275px;
+    }
+}
