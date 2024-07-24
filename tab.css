@@ -1,0 +1,45 @@
+@media screen and (max-width: 1000px) {
+    .btn22 {
+        background-color: transparent;
+        border: 1px solid var(--text-2);
+        margin-top: 1rem;
+    }
+    .box-1 {
+        position: absolute;
+        right: -52px;
+        top: 143px;
+        background-color: var(--transparent);
+        border: 1px solid var(--transparent);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+    }
+    .box-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: -54px;
+        bottom: 46px;
+        background-color: var(--transparent);
+        border: 1px solid var(--transparent);
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 20px;
+        gap: 0px;
+        backdrop-filter: blur(5px);
+    }
+    .cyh-card-container {
+        width: 100%;
+        margin-top: 3.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cyh-card {
+        width: 220px;
+        height: 260px;
+        /* border: 1px solid red; */
+        margin-bottom: 2.5rem;
+    }
+}

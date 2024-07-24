@@ -22,6 +22,7 @@ body{
     max-width: 1360px;
     margin: 0 auto;
     color: white;
+    background-color: #000;
 }
 *{
     margin: 0px;
@@ -204,3 +205,72 @@ body{
 
 /* change your habits section style start from here */
 /* change your habits section style start from here */
+.change-h-container{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* border: 1px solid red; */
+}
+.cyh-title{
+    margin-top: 50px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--inter-font);
+    color: rgb(255, 255, 255);
+}
+.cyh-description{
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 0.9rem;
+    color: var(--text-2);
+    font-family: var(--inter-font);
+    letter-spacing: 0.28px;
+}
+.cyh-card-container{
+    width: 100%;
+    margin-top: 3.8rem;
+    /* display: grid;
+    grid-template-columns: repeat(4 , 1fr); */
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.cyh-card{
+    width: 220px;
+    height: 260px;
+    /* border: 1px solid red; */
+}
+.cyh-card .cyh-card-img-box{
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+.cyh-card-img-box img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+.cyh-description-box{
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.cyh-description-box .title{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 7px;
+    font-family: var(--inter-font);
+}
+.cyh-description-box .details{
+    color: var(--text-2);
+    font-size: 0.9rem;
+    letter-spacing: 0.28px;
+    font-family: var(--inter-font);
+}
