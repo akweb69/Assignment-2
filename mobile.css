@@ -254,6 +254,31 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    .form-container-1 input {
+        width: 46%;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.14);
+        padding: 5px 20px;
+        margin: 5px;
+        color: rgb(218, 216, 216);
+        font-size: 1rem;
+    }
+    .form-container-1 select {
+        width: 46%;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.14);
+        padding: 5px 20px;
+        margin: 5px;
+        color: rgb(218, 216, 216);
+        font-size: 1rem;
+    }
+    #a-factor {
+        width: 96%;
+    }
 
 
 }
@@ -264,7 +289,34 @@
         font-weight: 800;
         line-height: 4.3rem;
     }
-}
+
+        .form-container-1 input {
+            width: 48%;
+            height: 40px;
+            border-radius: 8px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.14);
+            padding: 5px 20px;
+            margin: 5px 0px;
+            color: rgb(218, 216, 216);
+            font-size: 1rem;
+        }
+        .form-container-1 select {
+            width: 48%;
+            height: 40px;
+            border-radius: 8px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.14);
+            padding: 5px 20px;
+            margin: 0px;
+            color: rgb(218, 216, 216);
+            font-size: 1rem;
+        }
+        #a-factor {
+            width: 98%;
+        }
+    }
+
 @media screen and (max-width: 350px) {
     .shape {
         font-family: var(--miama-font);
