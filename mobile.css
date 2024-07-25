@@ -237,3 +237,44 @@
         cursor: pointer;
     }
 }
+@media screen and (max-width: 590px){
+    .banner-title {
+        font-family: var(--inter-font);
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 4.3rem;
+    }
+    .shape {
+        font-family: var(--miama-font);
+        font-size: 8rem;
+        font-weight: 500;
+    }
+    .img-gallery-10, .img-gallery-20 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+@media screen and (max-width: 430px){
+    .banner-title {
+        font-family: var(--inter-font);
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 4.3rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .shape {
+        font-family: var(--miama-font);
+        font-size: 6rem;
+        font-weight: 500;
+    }
+    .banner-title {
+        font-family: var(--inter-font);
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 3.3rem;
+    }
+}
