@@ -633,3 +633,147 @@ input::placeholder{
     color: white;
     font-size: 1.2rem;
 }
+
+/* membership section er styles */
+.membership{
+    width: 85%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+
+}
+.membership-title{
+    text-align: center;
+
+}
+.membership-title > span{
+    color: red;
+    font-family: var(--miama-font);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.membership-title h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: var(--inter-font);
+    font-weight: 700;
+    margin-bottom: 4rem;
+
+}
+.pricing-card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+}
+.pricing-card-container .pricing-card{
+    width: 270px;
+    height: 380px;
+    /* border: 1px solid red; */
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.3rem;
+    position: relative;
+    z-index: 1000;
+    
+    
+}
+.pricing-card-icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(119, 113, 113, 0.8);
+    margin-top: 0rem;
+    margin-bottom: 10px;
+}
+.pricing-card-icon i{
+    font-size: 2rem;
+    color: rgb(17, 14, 14);
+    border-radius: 50%;
+}
+.pricing-card-title{
+    font-size: 1.2rem;
+    font-family: var(--inter-font);
+    color: var(--text-2);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.pricing-card-price{
+    font-family: var(--inter-font);
+    font-weight: 800;
+    font-size: 1.7rem;
+    text-align: center;
+    color: red;
+   margin-bottom: 1rem;
+}
+.pricing-card-details span i{
+    color: rgb(9, 243, 9);
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    
+}
+.pricing-card-details span {
+    color: var(--text-2);
+    font-size: 0.9rem;
+    font-family: var(--inter-font);
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+   
+
+}
+.pricing-card-details  p{
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.off span{
+   opacity: 0.3;
+}
+.pricing-card-btn{
+    width: 80%;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1.3rem;
+    cursor: pointer;
+}
+.pricing-card-btn button{
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: var(--inter-font);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.pricing-card-btn button i{
+    margin-left: 8px;
+}
+/* .pricing-card-container .pc-2{
+    background-color: rgb(38, 73, 46);
+} */
+ /* .pricing-card::after ,  .pricing-card::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 10px;
+    background-image: conic-gradient(red , blue );
+ } */
+ 
