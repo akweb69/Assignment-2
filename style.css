@@ -825,9 +825,73 @@ input::placeholder{
     margin-bottom: 5rem;
     
  }
- .trainer-gallery-container img{
+ .trainer-profile-box{
     width: 100%;
     border-radius: inherit;
     height: 255px;
+    /* border: 1px solid red; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+ }
+ .trainer-profile-box h4{
+    color: white;
+    font-size: 1.5rem;
+    font-family: var(--inter-font);
+    font-weight: 700;
+    text-transform: capitalize;
+
+ }
+ .trainer-profile-box p {
+    color: var(--text-2);
+    font-family: var(--inter-font);
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+    
+    
  }
 
+.t-p-b-1{
+    background-image: url(./images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.t-p-b-2{
+    background-image: url(./images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.t-p-b-3{
+    background-image: url(./images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.t-p-b-4{
+    background-image: url(./images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.t-p-b-5{
+    background-image: url(./images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.t-p-b-6{
+    background-image: url(./images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}

@@ -70,6 +70,9 @@
         /* border: 1px solid red; */
         height: 275px;
     }
+    .trainer-gallery-container {
+        grid-template-columns: repeat(2 , 1fr);
+    }
     .training-title p {
         font-size: 0.8rem;
         color: var(--text-2);
