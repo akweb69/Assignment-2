@@ -748,6 +748,7 @@ input::placeholder{
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 1.3rem;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 .pricing-card-btn button{
     color: white;
@@ -760,6 +761,10 @@ input::placeholder{
 }
 .pricing-card-btn button i{
     margin-left: 8px;
+}
+.pricing-card-btn:hover{
+    box-shadow: 0px 0px 1px rgb(9, 243, 9);
+    
 }
 /* .pricing-card-container .pc-2{
     background-color: rgb(38, 73, 46);
@@ -777,3 +782,52 @@ input::placeholder{
     background-image: conic-gradient(red , blue );
  } */
  
+
+
+ /* our trainer */
+ /* our trainer */
+ /* our trainer */
+ .trainer-section{
+   
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 4rem;
+ }
+ .trainer-title h1{
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 2.7rem;
+    color: white;
+    font-weight: 900;
+ }
+ .trainer-description p{
+    text-align: center;
+    max-width: 50%;
+    color: var(--text-2);
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    font-family: var(--inter-font);
+    letter-spacing: 0.27px;
+    font-weight: 400;
+    margin-bottom: 4rem;
+
+ }
+ .trainer-gallery-container{
+    width: 100%;
+    background-color: var(--transparent);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    
+ }
+ .trainer-gallery-container img{
+    width: 100%;
+    border-radius: inherit;
+    height: 255px;
+ }
+
