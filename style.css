@@ -197,6 +197,12 @@ body{
     height: 30px;
     border-radius: 50%;
     background-color: var(--btn-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 .box-222 i{
+    font-size: .8rem;
 }
 .box-2-details h1{
     font-size: 2rem;
@@ -914,9 +920,7 @@ input::placeholder{
     padding-bottom: 3rem;
     
 }
-.footer-logo{
-    /* border: 1px solid red; */
-}
+
 .footer-logo h1{
     font-size: 4rem;
     font-weight: 900;
