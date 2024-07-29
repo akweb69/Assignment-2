@@ -85,6 +85,9 @@
     .bmi p{
         max-width: 100%;
     }
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
 }
 @media screen and (max-width:750px) {
     .form-section {
